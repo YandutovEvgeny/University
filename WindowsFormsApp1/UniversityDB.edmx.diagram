@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ed74e547797f40f5a30462283a57c211" Name="Diagram1">
+        <EntityTypeShape EntityType="UniversityModel.C__MigrationHistory" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Rostra" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Students" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.sysdiagrams" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Teachers" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="UniversityModel.FK_dbo_Students_dbo_Rostra_RostRum_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK_dbo_Teachers_dbo_Rostra_RostRum_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK_dbo_Students_dbo_Teachers_Teacher_Id" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
